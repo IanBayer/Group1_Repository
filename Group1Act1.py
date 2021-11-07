@@ -9,3 +9,16 @@ if(average >= 75):
     print("Passed")
 else:
     print("Failed")
+
+if average >= 99 and average <= 100:
+    print("Rating: A")
+elif average >= 90 and average <= 98:
+    print("Rating: B")
+elif average >= 80 and average <= 89:
+    print("Rating: C")
+elif average >= 71 and average <= 79:
+    print("Rating: D")
+elif average >= 61 and average <= 70:
+    print("Rating: E")
+else:
+    print("Rating: F")
